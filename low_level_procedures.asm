@@ -1,7 +1,6 @@
 TITLE Designing Low-Level I/O Procedures     (low_level_procedures.asm)
 
 ; Author: Kai-Hsiang Chang
-; Last Modified: 12/14/2021
 ; Description: This program implements two common low-level I/O procedures, one to read numeric input from the user
 ;	and another to print a number to the output. The implemented procedures are called ReadVal and WriteVal
 ;	respectively. ReadVal reads the string representation of numeric input from the user and converts
@@ -429,7 +428,6 @@ _insertNumToArrLoop:
 	MOV			EDI, [EBP+8]
 	MOV			AL, 0
 	MOV			ECX, 15
-_clearNumStr:
 	REP			STOSB
 
 	POP			EDI
