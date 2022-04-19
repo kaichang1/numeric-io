@@ -421,7 +421,7 @@ _insertNumToArrLoop:
 	JNE			_insertNumToArrLoop
 	CLD
 
-	;At this point we have finished adding all digit characters to numStr in the correct order and print the string
+	; At this point we have finished adding all digit characters to numStr in the correct order and print the string
 	mDisplayString		[EBP+8]
 
 	; Clear numStr for future use by changing all elements to 0
