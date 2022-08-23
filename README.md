@@ -1,4 +1,4 @@
-# designing-low-level-procedures
+# Numeric I/O
 
 Two common low-level procedures are implemented in `low_level_procedures.asm`:
 - ReadVal: Read and return numeric input from user
